@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 8</title>
+</head>
+<body>
+    <h1>Table Practice Assignment</h1>
+    <hr>
+    Task 1: Create a simple table with 3 columns: Name, Age, Grade.
+<p>Ans: <table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Grade</th>
+    </tr>
+    <tr>
+        <td>John Doe</td>
+        <td>20</td>
+        <td>A</td>
+    </tr>
+</table></p>
+
+Task 2: Add a colgroup to color the first column lightblue.
+<P>Ans: <table border="1">
+    <colgroup>
+        <col style="background-color: lightblue;">
+    </colgroup>
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Grade</th>
+    </tr>
+    <tr>
+        <td>John Doe</td>
+        <td>20</td>
+        <td>A</td>
+    </tr>
+</table></P>
+
+Task 3: Style the second and third columns using span in col.
+<P>Ans: <table border="1">
+    <colgroup>
+        <col style="background-color: lightblue;">
+        <col span="2" style="background-color: lightgray;">
+    </colgroup>
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Grade</th>
+    </tr>
+    <tr>
+        <td>John Doe</td>
+        <td>20</td>
+        <td>A</td>
+    </tr>
+</table></P>
+
+Task 4: Merge the first row into a single header using colspan.
+<P>Ans: <table border="1">
+    <colgroup>
+        <col style="background-color: lightblue;">
+        <col span="2" style="background-color: lightgray;">
+    </colgroup>
+    <tr>
+        <th colspan="3">Student Information</th>
+    </tr>
+    <tr>
+        <td>John Doe</td>
+        <td>20</td>
+        <td>A</td>
+    </tr>
+    </table>
+</P>
+
+Task 5: Merge two rows for the first student's name using rowspan.
+<P>Ans: <table border="1">
+    <colgroup>
+        <col style="background-color: lightblue;">
+        <col span="2" style="background-color: lightgray;">
+    </colgroup>
+    <tr>
+        <th colspan="3">Student Information</th>
+    </tr>
+    <tr>
+        <td rowspan="2">John Doe</td>
+        <td>20</td>
+        <td>A</td>
+    </tr>
+    <tr>
+        <td>21</td>
+        <td>B</td>
+    </tr>
+</table></P>
+
+Task 6: Create a table with alternating column colors using <colgroup>.
+<p>Ans: <table border="1">
+    <colgroup>
+        <col style="background-color: lightblue;">
+        <col style="background-color: lightgray;">
+        <col style="background-color: lightblue;">
+    </colgroup>
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Grade</th>
+    </tr>
+    <tr>
+        <td>John Doe</td>
+        <td>20</td>
+        <td>A</td>
+    </tr>
+</table></p>
+
+Task 7: Add a total row at the bottom using colspan.
+<p>Ans: <table border="1">
+    <colgroup>
+        <col style="background-color: lightblue;">
+        <col span="2" style="background-color: lightgray;">
+    </colgroup>
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Grade</th>
+    </tr>
+    <tr>
+        <td>John Doe</td>
+        <td>20</td>
+        <td>A</td>
+    </tr>
+    <tr>
+        <td colspan="3">Total: 1 Student</td>
+    </tr>
+</table></p>
+
+Task 8: Create a table with a header row and 3 data rows.
+<p>Ans: <table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Grade</th>
+    </tr>
+    <tr>
+        <td>John Doe</td>
+        <td>20</td>
+        <td>A</td>
+    </tr>
+    <tr>
+        <td>Jane Smith</td>
+        <td>22</td>
+        <td>B</td>
+    </tr>
+    <tr>
+        <td>Bob Johnson</td>
+        <td>21</td>
+        <td>A</td>
+    </tr>
+</table></p>
+
+Task 9: Merge the subject cell vertically for a student with rowspan.
+<p>Ans: <table border="1">
+    <colgroup>
+        <col style="background-color: lightblue;">
+        <col span="2" style="background-color: lightgray;">
+    </colgroup>
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Grade</th>
+    </tr>
+    <tr>
+        <td>John Doe</td>
+        <td>20</td>
+        <td>A</td>
+    </tr>
+</table></p>
+
+Task 10: Create a table with a title row spanning all columns and colored using <colgroup>.
+<p>Ans: <table border="1">
+    <colgroup>
+        <col style="background-color: lightblue;">
+        <col span="2" style="background-color: lightgray;">
+    </colgroup>
+    <tr>
+        <th colspan="3">Student Information</th>
+    </tr>
+    <tr>
+        <td>John Doe</td>
+        <td>20</td>
+        <td>A</td>
+    </tr>
+</table></p>
+
+Task 11: Style multiple columns at once with span.
+<p>Ans: <table border="1">
+    <colgroup>
+        <col style="background-color: lightblue;">
+        <col span="2" style="background-color: lightgray;">
+    </colgroup>
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Grade</th>
+    </tr>
+    <tr>
+        <td>John Doe</td>
+        <td>20</td>
+        <td>A</td>
+    </tr>
+</table></p>
+
+Task 12: Combine rowspan and colspan in a table cell.
+<p>Ans: <table border="1">
+    <colgroup>
+        <col style="background-color: lightblue;">
+        <col span="2" style="background-color: lightgray;">
+    </colgroup>
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Grade</th>
+    </tr>
+    <tr>
+        <td rowspan="2" colspan="2">John Doe</td>
+        <td>A</td>
+    </tr>
+    <tr>
+        <td>20</td>
+    </tr>
+</table></p>
+
+Task 13: Create a timetable-like table using rowspan for a subject repeated across days.
+<p>Ans: <table border="1">
+    <colgroup>
+        <col style="background-color: lightblue;">
+        <col style="background-color: lightgray;">
+        <col style="background-color: lightgray;">
+    </colgroup>
+    <tr>
+        <th>Time</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+    </tr>
+    <tr>
+        <td>9:00-10:00</td>
+        <td rowspan="2">Math</td>
+        <td>Science</td>
+    </tr>
+    <tr>
+        <td>10:00-11:00</td>
+        <td>History</td>
+    </tr>
+</table></p>
+
+Task 14: Apply background color to all columns using <colgroup>.
+<p>Ans: <table border="1">
+    <colgroup>
+        <col style="background-color: lightblue;">
+        <col style="background-color: lightgray;">
+        <col style="background-color: lightgray;">
+    </colgroup>
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Grade</th>
+    </tr>
+    <tr>
+        <td>John Doe</td>
+        <td>20</td>
+        <td>A</td>
+    </tr>
+</table></p>
+
+Task 15: Create a complete student report combining <colgroup>, rowspan, and colspan.
+    <p>Ans: <table border="1">
+        <colgroup>
+            <col style="background-color: lightblue;">
+            <col span="2" style="background-color: lightgray;">
+        </colgroup>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Grade</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>20</td>
+            <td>A</td>
+        </tr>
+    </table></p>
+</body>
+</html>
