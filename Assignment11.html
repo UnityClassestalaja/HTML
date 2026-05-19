@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 11</title>
+</head>
+<body>
+    <h1>Assignment 11</h1><hr><br>
+ Task 1: Create a form with a text input for “Username”.
+<p>Ans: <label for="Username">Username:</label>
+<input type="text" id="Username" name="Username"></p>
+
+Task 2: Add a password input field for “Password”.
+<p>Ans: <label for="Password">Password:</label>
+<input type="password" id="Password" name="Password">
+</p>
+Task 3: Create an email input field.
+<p>Ans: <label for="Email">Email:</label>
+<input type="email" id="Email" name="Email">
+</p>
+Task 4: Add a number input for “Age” with min 1 and max 100.
+<p>Ans: <label for="Age">Age:</label>
+<form action="" method="post"><input type="number" min="1" max="100" id="Age" name="Age">
+<input type="submit" name="Submit"></form>
+</p>
+Task 5: Create radio buttons for gender selection.
+<p>Ans: <label for="Gender">Gender:</label>
+    <label for="Male">Male</label>
+    <input type="radio" id="Male" name="Gender">
+    <label for="Female">Female</label>
+    <input type="radio" id="Female" name="Gender">
+</p>
+Task 6: Create checkboxes for selecting hobbies.
+<p>Ans: <label for="Hobbies">Hobbies:</label>
+    <label for="Reading">Reading</label>
+<input type="checkbox" id="Reading" name="Reading">
+<label for="Writing">Writing</label>
+<input type="checkbox" id="Writing" name="Writing">
+<label for="Others">Others</label>
+<input type="checkbox" id="Others" name="Others">
+</p>
+Task 7: Create a textarea for user comments.
+<p>
+    Ans: <textarea name="Enter your Comment" id="Enter your Comment" placeholder="Comments"></textarea>
+</p>
+Task 8: Add a file upload input in a form.
+<p>Ans: <label for="Profile Photo">Profile Photo:</label>
+<input type="file" id="Profile Photo" name="Profile Photo" placeholder="Upload Your Photo">
+</p>
+Task 9: Add a placeholder to an input field.
+<p>Ans: <input type="text" placeholder="Just Chill">
+</p>
+Task 10: Make an input field required.
+<p>Ans: <form action="" method="post"><label for="Password">Password:</label>
+<input type="password" id="Password" name="Password" required >
+<input type="submit" name="Submit"></form>
+</p>
+Task 11: Create a drop-down selection for “Country”.
+<p>Ans: <label for="Country">Country:</label>
+<select name="country" id="Country"><option value="India">India</option>
+<option value="UK">UK</option>
+<option value="USA">USA</option>
+<option value="Other">Other</option></select>
+</p>
+Task 12: Add a hidden input to a form.
+<p>Ans: <input type="text" hidden></p>
+Task 13: Group inputs for “Personal Information” using fieldset and legend.
+<p>Ans: <fieldset><legend>Personal Information</legend>
+<input type="text" placeholder="First name"><input type="text" placeholder="Middle name"><input type="text" placeholder="Last name">
+<br> <input type="tel" placeholder="Mobile number">
+<br> <input type="email" placeholder="Email"></fieldset>
+</p>
+Task 14: Associate labels with inputs using label and for.
+<p>Ans: <label for="Fullname">Fullname:</label>
+<input type="text" id="Fullname" name="Fullname"></p>
+Task 15: Create a complete registration form with text, email, password, radio buttons, checkboxes, select, textarea, and submit button.
+<p>Ans: <form action="" method="post"><fieldset>
+        <legend>Registration Form</legend>
+        <label for="Fullname">Fullname:</label>
+        <input type="text" id="Fullname" name="Fullname">
+        <br> <label for="Email">Email:</label>
+        <input type="email" id="Email" name="Email">
+        <br> <label for="Password">Password:</label>
+        <input type="password" id="Password" name="Password">
+        <br> <label for="Gender">Gender:</label>
+        <label for="Male">Male</label>
+        <input type="radio" id="Male" name="Gender">
+        <label for="Female">Female</label>
+        <input type="radio" id="Female" name="Gender">
+        <label for="Other">Other</label>
+        <input type="radio" id="Other" name="Gender">
+        <br><label for="Skills">Skills:</label>
+        <label for="HTML">HTML</label>
+        <input type="checkbox" id="HTML">
+        <label for="CSS">CSS</label>
+        <input type="checkbox" id="CSS">
+        <label for="JS">JS</label>
+        <input type="checkbox" id="JS">
+        <br>
+        <label for="Country">Country:</label>
+        <select name="Country" id="Country">
+            <option value="India">India</option>
+            <option value="UK">UK</option>
+            <option value="Other">Other</option>
+        </select><br>
+        <label for="Address">Address:</label>
+        <Textarea></Textarea><br>
+        <input type="submit" name="Submit">
+        <input type="reset" name="Clear">
+    </fieldset></form></p>
+</body>
+</html>
